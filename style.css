@@ -1,0 +1,28 @@
+#navbartop{
+	display: flex;
+	list-style-type: none;
+	background-color: green;
+
+
+}
+#pics{
+	display: flex;
+}
+.pic{
+	width: 400px;
+}
+ul{
+	display: flex;
+	list-style-type: none;
+}
+li{margin:2%;}
+
+#invisshoppingc{
+	visibility: collapse;
+	/*display:flex;*/
+}
+
+.picincart{
+	width: 100px;
+}
+
