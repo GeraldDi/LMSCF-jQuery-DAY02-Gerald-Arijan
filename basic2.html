@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jq day2</title>
+	 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<style type="text/css" media="screen">
+		img{
+			height: 500px;
+		}
+		div{
+			display: flex;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="row1">
+
+		<div class="gift"><img src="https://cdn.shopify.com/s/files/1/1369/2605/articles/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png" alt="gift" class="pic" ></div>
+
+		<div class="santa"><img src="https://juststickers.in/wp-content/uploads/2016/11/santa-claus.png" alt="santa" class="pic" ></div>
+
+		<div class="gift"><img src="https://cdn.shopify.com/s/files/1/1369/2605/articles/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png" alt="gift" class="pic" ></div>
+
+		
+	</div>
+
+	<div id="row2">
+
+		<div class="gift"><img src="https://cdn.shopify.com/s/files/1/1369/2605/articles/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png" alt="gift" class="pic" ></div>
+
+		<div class="santa"><img src="https://juststickers.in/wp-content/uploads/2016/11/santa-claus.png" alt="santa" class="pic" ></div>
+
+		<div class="gift"><img src="https://cdn.shopify.com/s/files/1/1369/2605/articles/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png" alt="gift" class="pic" ></div>
+
+		
+	</div>
+
+
+	<div id="row3">
+
+		<div class="santa"><img src="https://juststickers.in/wp-content/uploads/2016/11/santa-claus.png" alt="santa" class="pic" ></div>
+
+		<div class="gift"><img src="https://cdn.shopify.com/s/files/1/1369/2605/articles/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png" alt="gift" class="pic" ></div>
+
+		<div class="santa"><img src="https://juststickers.in/wp-content/uploads/2016/11/santa-claus.png" alt="santa" class="pic" ></div>
+
+		
+		
+	</div>
+
+	<script>
+	    $(document).ready(function() {
+        $('div.santa').on('click', function() {
+            /*$(this).text('') option1*/ 
+            $(this).remove();/*option 2*/
+            
+        })
+    });
+
+	</script>
+</body>
+</html>
